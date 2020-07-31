@@ -11,6 +11,7 @@ def getOTP():
 root = Tk()
 root.title('OTP Generator')
 root.geometry('240x240')
+root.configure(backgroud='cyan')
 frm1 = Frame(root)
 r1var = StringVar()
 r1var.set(4)
